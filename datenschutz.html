@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datenschutzerklärung – Praxis Rechnungen</title>
+<style>
+  body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; max-width: 42rem; margin: 3rem auto; padding: 0 1rem; line-height: 1.6; color: #1f2933; }
+  h1 { font-size: 1.8rem; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; }
+  a { color: #1a56b0; }
+  footer { margin-top: 3rem; font-size: .9rem; color: #52606d; }
+</style>
+</head>
+<body>
+<p><a href="index.html">← Praxis Rechnungen</a></p>
+<h1>Datenschutzerklärung</h1>
+<p>Stand: 29. September 2026</p>
+
+<h2>Verantwortlich</h2>
+<p>Gastroenterologie Praxis Dr. med. I. Kapoglou, Biel.<br>
+Kontakt: <a href="mailto:gastropraxisbiel@gmail.com">gastropraxisbiel@gmail.com</a></p>
+
+<h2>Worum es geht</h2>
+<p>«Praxis Rechnungen» ist ein internes Programm, das nur in der Praxis läuft. Es liest Rechnungen und Quittungen aus einem einzigen Gmail-Postfach der Praxis und gleicht sie mit den Bankbelastungen ab. Die Anwendung hat keine weiteren Nutzer als die Praxis selbst.</p>
+
+<h2>Welche Google-Daten das Programm verwendet</h2>
+<p>Mit Ihrer Freigabe greift das Programm auf das genannte Gmail-Postfach zu, mit zwei Berechtigungen:</p>
+<ul>
+  <li><strong>Mails lesen und ändern</strong> (gmail.modify): Es sucht ungelesene Mails, deren Betreff «Rechnung» enthält und deren Absender auf der Liste erlaubter Adressen steht. Es liest deren Anhänge (PDF oder Foto), versieht die Mail mit dem Label «Praxis verarbeitet» und markiert sie als gelesen. Mails anderer Absender werden ignoriert.</li>
+  <li><strong>Mails senden</strong> (gmail.send): Es sendet dem Absender einer verarbeiteten Rechnung eine kurze Bestätigung mit Dateiname, Monat, Lieferant und Kategorie. Andere Mails sendet es nicht.</li>
+</ul>
+
+<h2>Speicherung und Weitergabe</h2>
+<ul>
+  <li>Die Anhänge werden auf dem Computer der Praxis gespeichert. Das Zugangstoken für Gmail liegt ebenfalls nur lokal auf diesem Computer.</li>
+  <li>Es gibt keinen Server des Anbieters. Daten aus Gmail werden nicht an Dritte weitergegeben, nicht verkauft, nicht für Werbung verwendet und nicht zum Training von KI-Modellen verwendet.</li>
+  <li>Menschen lesen die Mails nur, soweit die Praxis die Rechnungen selbst prüft.</li>
+</ul>
+
+<h2>Einhaltung der Google-Richtlinien</h2>
+<p>Die Verwendung und Weitergabe von Informationen, die «Praxis Rechnungen» von Google-APIs erhält, entspricht der <a href="https://developers.google.com/terms/api-services-user-data-policy">Nutzerdatenrichtlinie für Google-API-Dienste</a>, einschliesslich der Anforderungen zur eingeschränkten Nutzung (Limited Use).</p>
+
+<h2>Zugriff widerrufen und Daten löschen</h2>
+<p>Der Zugriff lässt sich jederzeit unter <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> widerrufen. Die lokal gespeicherten Belege und das Token löscht die Praxis auf ihrem Computer. Bei Fragen genügt eine Mail an die obige Adresse.</p>
+
+<footer>
+  <em>English summary:</em> Praxis Rechnungen is used only by one medical practice. It reads invoice emails (subject contains "Rechnung", sender on an allow-list) from one Gmail mailbox, saves the attachments on the practice's own computer, labels the mail, and sends a confirmation reply to the sender. No data is shared with third parties, sold, used for advertising or used to train AI models. Use of Google user data follows the Google API Services User Data Policy, including the Limited Use requirements. Access can be revoked at myaccount.google.com/permissions.
+</footer>
+</body>
+</html>
